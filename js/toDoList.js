@@ -20,7 +20,7 @@ function newElement(){
     }
     else{    
 
-        $('#liveToastError').toast('show')
+        $('#liveToastError').toast('show');
     } 
    
     liDOM.addEventListener("click",()=>{
